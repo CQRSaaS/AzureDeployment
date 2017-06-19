@@ -4,14 +4,16 @@ This repository contains the azure resource manager deployment script for the no
 
 The following resources will be set up:
 
-1. Azure Functions
+1. Azure Functions*
   1. AggregateFactory
+  2. NotaBoundContext
+  3. NotaQuery
+  4. NotaManagement
   
-2. CosmosDB
-  1. aggregatestore
+2. CosmosDB - aggregatestore
   
-3. Event Hubs
-  1. CQRSEventStream
+3. Event Hubs - CQRSEventStream
 
-4. Notification Hub
-  1. NotaMobileNotifications
+4. Notification Hub - NotaMobileNotifications
+
+
